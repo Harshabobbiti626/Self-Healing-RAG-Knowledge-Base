@@ -1,0 +1,29 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python Cache & Testing
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Environment Variables & Secrets
+.env
+*.local
+
+# Storage & Data Artifacts
+data/qdrant_storage/
+data/telemetry.jsonl
+data/golden_eval/*.json
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
